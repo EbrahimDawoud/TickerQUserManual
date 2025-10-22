@@ -12,7 +12,7 @@ const config = {
   // Set the production url of your site here
   url: 'https://EbrahimDawoud.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
-  baseUrl: '/',
+  baseUrl: '/TickerQ-Docs/',
 
   // GitHub pages deployment config.
   organizationName: 'EbrahimDawoud',
