@@ -1,75 +1,73 @@
 # TickerQ Demo Documentation
 
-This directory contains the Docusaurus documentation site for the TickerQ Demo project.
+This repository contains the documentation for the TickerQ Demo project, built with Docusaurus.
 
-## Getting Started
+## 🚀 Live Documentation
 
-### Prerequisites
+📖 **[View Live Documentation](https://YOUR_USERNAME.github.io/TickerQ-Docs/)**
 
-- Node.js 18.0 or later
-- npm or yarn
-
-### Installation
+## 🛠️ Local Development
 
 ```bash
-cd docs
+# Install dependencies
 npm install
-```
 
-### Development
-
-Start the development server:
-
-```bash
+# Start development server
 npm start
-```
 
-This will start the documentation site at `http://localhost:3000`.
-
-### Building
-
-Build the static site:
-
-```bash
+# Build for production
 npm run build
-```
 
-### Preview Production Build
-
-Preview the production build locally:
-
-```bash
+# Serve production build locally
 npm run serve
 ```
 
-## Documentation Structure
+## 📚 Documentation Structure
 
-- `docs/` - Documentation pages
-- `src/` - React components and custom CSS
-- `static/` - Static assets (images, etc.)
-- `docusaurus.config.js` - Site configuration
-- `sidebars.js` - Navigation structure
+- **Installation** - Setup and installation guide
+- **API Reference** - Complete API documentation
+- **Configuration** - Configuration options
+- **Dashboard** - Web interface guide
+- **Exception Handling** - Error management
+- **Cron Jobs** - Scheduling patterns
+- **Time Jobs** - One-time job scheduling
 
-## Content
+## 🔧 Configuration
 
-The documentation covers:
+The documentation is configured in `docusaurus.config.js`. Key settings:
 
-1. **Introduction** - Overview of TickerQ and the demo project
-2. **Installation** - Setup guide and prerequisites
-3. **Configuration** - TickerQ setup and configuration
-4. **Cron Jobs** - Scheduled background tasks
-5. **Time Jobs** - One-time scheduled tasks
-6. **Exception Handling** - Custom error handling
-7. **Dashboard** - Monitoring and management interface
-8. **API Reference** - Complete code examples
+- **URL**: `https://YOUR_USERNAME.github.io`
+- **Base URL**: `/TickerQ-Docs/`
+- **Repository**: `YOUR_USERNAME/TickerQ-Docs`
 
-## Deployment
+## 🚀 Deployment
 
-The documentation can be deployed to:
+This documentation is automatically deployed to GitHub Pages when changes are pushed to the `main` branch.
 
-- GitHub Pages
-- Netlify
-- Vercel
-- Any static hosting service
+### Manual Deployment
 
-Build the site and deploy the `build/` directory.
+```bash
+# Build the documentation
+npm run build
+
+# Deploy to GitHub Pages
+npm run deploy
+```
+
+## 📝 Contributing
+
+1. Make your changes to the documentation
+2. Test locally with `npm start`
+3. Build with `npm run build`
+4. Commit and push to `main` branch
+5. Documentation will be automatically deployed
+
+## 🔗 Related Links
+
+- [Main Project Repository](https://github.com/YOUR_USERNAME/TickerQ_Demo)
+- [TickerQ Library](https://github.com/your-org/tickerq)
+- [Docusaurus Documentation](https://docusaurus.io/)
+
+---
+
+**Built with ❤️ using Docusaurus**

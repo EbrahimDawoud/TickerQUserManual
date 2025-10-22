@@ -10,13 +10,13 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.com',
+  url: 'https://EbrahimDawoud.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
-  baseUrl: '/',
+  baseUrl: '/TickerQ-Docs/',
 
   // GitHub pages deployment config.
-  organizationName: 'facebook',
-  projectName: 'docusaurus',
+  organizationName: 'YOUR_USERNAME',
+  projectName: 'TickerQ-Docs',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -36,7 +36,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/YOUR_USERNAME/TickerQ-Docs/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -64,7 +64,7 @@ const config = {
             label: 'Docs',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/YOUR_USERNAME/TickerQ-Docs',
             label: 'GitHub',
             position: 'right',
           },
@@ -104,7 +104,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/YOUR_USERNAME/TickerQ-Docs',
               },
             ],
           },
