@@ -15,7 +15,7 @@ const config = {
   baseUrl: '/TickerQ-Docs/',
 
   // GitHub pages deployment config.
-  organizationName: 'YOUR_USERNAME',
+  organizationName: 'EbrahimDawoud',
   projectName: 'TickerQ-Docs',
 
   onBrokenLinks: 'throw',
