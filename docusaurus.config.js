@@ -12,7 +12,7 @@ const config = {
   // Set the production url of your site here
   url: 'https://EbrahimDawoud.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
-  baseUrl: '/TickerQ-Docs/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   organizationName: 'EbrahimDawoud',
@@ -36,7 +36,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/YOUR_USERNAME/TickerQ-Docs/tree/main/',
+          editUrl: 'https://github.com/EbrahimDawoud/TickerQ-Docs/tree/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -64,7 +64,7 @@ const config = {
             label: 'Docs',
           },
           {
-            href: 'https://github.com/YOUR_USERNAME/TickerQ-Docs',
+            href: 'https://github.com/EbrahimDawoud/TickerQ-Docs',
             label: 'GitHub',
             position: 'right',
           },
@@ -104,7 +104,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/YOUR_USERNAME/TickerQ-Docs',
+                href: 'https://github.com/EbrahimDawoud/TickerQ-Docs',
               },
             ],
           },
